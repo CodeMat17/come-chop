@@ -1,0 +1,12 @@
+query Restaurant($id: ID!) {
+  restaurant(id: $id) {
+    id,
+    dishes {
+      id,
+      name,
+      description,
+      image,
+      price
+    }
+  }
+}
