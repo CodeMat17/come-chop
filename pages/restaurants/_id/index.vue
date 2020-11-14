@@ -33,7 +33,7 @@
                   :data-item-name="dish.name"
                   :data-item-image="dish.image"
                   :data-item-price="dish.price"
-                  :data-item-url='$route.fullPath'
+                  :data-item-url="`${this.$route.fullPath}`"
                   :data-item-description="dish.description"
                 >
                   Add to cart
