@@ -1,5 +1,7 @@
 # nuxt-frontend
 
+## Come Chop is an ecommerce application built with the magical nuxt, amazing graphql and snipcart
+
 ## Build Setup
 
 ```bash
